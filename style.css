@@ -16,17 +16,46 @@ header {
 h1 {
     font-weight: 900;
     font-size: 36px;
-
+    margin-bottom: 0;
 }
 
 .hero-title {
-    font-size: px;
     font-weight: 700;
 }
 
 .hero {
     background-color: #1f2937;
     color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+}
+
+.sign-up {
+    color: white;
+    background-color: #3882F6;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 25px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-left {
+    text-align: left;
+}
+
+.hero-right {
+    height: 150px;
+    width: 360px;
+    background-color: #e5e7eb;
 }
 
 ul {
@@ -99,14 +128,27 @@ footer {
 }
 
 .quote-container {
+    background-color: #e5e7eb;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e5e7eb;
+}
 
+#quote {
+    display: flex;
+    max-width: 400px;
+    justify-content: space-between;
+}
+
+.quote-italics {
+    font-style: italic;
+    font-size: 25px;
+    color: #1f2937;
+    margin-bottom: 0;
 }
 
 .quote-by {
+    margin-top: 0;
     text-align: right;
 }
 
