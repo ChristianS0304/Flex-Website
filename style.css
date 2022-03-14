@@ -26,12 +26,17 @@ h1 {
 .hero {
     background-color: #1f2937;
     color: white;
+    padding: 70px 0;
+}
+
+#hero {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 50px;
-    flex: 1;
-    justify-content: space-around;
 }
+
+
 
 .sign-up {
     color: white;
@@ -42,20 +47,19 @@ h1 {
     padding: 5px 25px;
 }
 
-.hero-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .hero-left {
     text-align: left;
+    max-width: 400px;
 }
 
 .hero-right {
     height: 150px;
     width: 360px;
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1f2937;
 }
 
 .box-container {
